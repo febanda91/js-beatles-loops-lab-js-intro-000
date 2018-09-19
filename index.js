@@ -1,6 +1,5 @@
 // add solution here
-var players = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"]
-var instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"]
+
 
 function theBeatlesPlay(players, instruments) {
   var allPlayers = [];
@@ -16,6 +15,18 @@ function johnLennonFacts(facts) {
   var i = 0;
   while(i < facts.length) {
     newFacts.push(facts[i] + "!!!");
+    i++
   }
   return newFacts;
+}
+
+
+function iLoveTheBeatles(number) {
+  var love = [];
+  do {
+    love.push("I love the Beatles!");
+    number++;
+  } while (number < 15);
+
+  return number;
 }
